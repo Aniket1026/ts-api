@@ -1,6 +1,4 @@
-import express, { Request, Response } from 'express';
-
-export interface MessageResponse {
+export default interface MessageResponse {
     success: boolean;
     message: string;
 }
